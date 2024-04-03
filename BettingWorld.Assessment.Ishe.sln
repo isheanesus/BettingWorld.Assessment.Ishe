@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BettingWorld.Assessment.Ishe.API", "BettingWorld.Assessment.Ishe.API\BettingWorld.Assessment.Ishe.API.csproj", "{0CDBBC19-40D7-439A-9A28-E41D81A3ED1C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9AAF9153-63F5-4F50-B06E-BD3FE14DE01A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BettingWorld.Assessment.Ishe.APITest", "BettingWorld.Assessment.Ishe.APITest\BettingWorld.Assessment.Ishe.APITest.csproj", "{8EDF28C9-EB68-4731-AF44-8AB8D7837F49}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0CDBBC19-40D7-439A-9A28-E41D81A3ED1C} = {0CDBBC19-40D7-439A-9A28-E41D81A3ED1C}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8A201A8-4F24-4036-A099-30ED7FE0AB5D}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CDBBC19-40D7-439A-9A28-E41D81A3ED1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDBBC19-40D7-439A-9A28-E41D81A3ED1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDBBC19-40D7-439A-9A28-E41D81A3ED1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDBBC19-40D7-439A-9A28-E41D81A3ED1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AAF9153-63F5-4F50-B06E-BD3FE14DE01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAF9153-63F5-4F50-B06E-BD3FE14DE01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAF9153-63F5-4F50-B06E-BD3FE14DE01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAF9153-63F5-4F50-B06E-BD3FE14DE01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF28C9-EB68-4731-AF44-8AB8D7837F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF28C9-EB68-4731-AF44-8AB8D7837F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF28C9-EB68-4731-AF44-8AB8D7837F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF28C9-EB68-4731-AF44-8AB8D7837F49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87146E87-E097-4E9A-B549-541F1EE54D40}
+	EndGlobalSection
+EndGlobal
